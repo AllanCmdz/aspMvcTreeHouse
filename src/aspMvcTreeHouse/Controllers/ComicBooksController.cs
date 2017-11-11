@@ -13,5 +13,11 @@ namespace aspMvcTreeHouse.Controllers
         {
             return View();
         }
+
+        public string details()
+        {
+            return "Hello from the comic controller";
+
+        }
     }
 }
